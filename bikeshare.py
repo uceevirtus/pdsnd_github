@@ -184,9 +184,9 @@ gender = df['Gender'].value_counts()
 earliest_birth = df['Birth Year'].min()
         most_recent_birth = df['Birth Year'].max()
         most_common_birth = df['Birth Year'].mode()[0]
-        print('Earliest birth from the given fitered data is: {}\n'.format(earliest_birth))
-        print('Most recent birth from the given fitered data is: {}\n'.format(most_recent_birth))
-        print('Most common birth from the given fitered data is: {}\n'.format(most_common_birth) )
+        print('Earliest birth from the fitered data is: {}\n'.format(earliest_birth))
+        print('Most recent birth from the fitered data is: {}\n'.format(most_recent_birth))
+        print('Most common birth from the fitered data is: {}\n'.format(most_common_birth) )
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
