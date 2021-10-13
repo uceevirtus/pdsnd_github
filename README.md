@@ -7,7 +7,7 @@ Project and README file were created on 13th October, 2021.
 Bikeshare project
 
 ### Description
-Describe what your project is about and what it does
+Explore a bike share system provider for many major cities in the United States, to uncover bike share usage patterns. I will run a comparison with the system usage between three large cities: Chicago, New York City, and Washington, DC.
 
 ### Files used
 Include the files used
