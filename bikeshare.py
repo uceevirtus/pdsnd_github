@@ -156,7 +156,7 @@ total_travel_time = df['Trip Duration'].sum()
     print("The total travel time from the given fitered data is: " + str(total_travel_time))
 
     # TO DO: display mean travel time
-ean_travel_time = df['Trip Duration'].mean()
+mean_travel_time = df['Trip Duration'].mean()
     print("The mean travel time from the given fitered data is: " + str(mean_travel_time))
 
 
