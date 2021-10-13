@@ -105,17 +105,17 @@ Args:
     start_time = time.time()
 
     # TO DO: display the most common month
-common_month = df['month'].mode()[0]
-    print("The most common month from the given fitered data is: " + MONTH_DATA[common_month].title())
+most_common_month = df['month'].mode()[0]
+    print("The most common month from the given fitered data is: " + MONTH_DATA[most_common_month].title())
 
 
     # TO DO: display the most common day of week
-common_day_of_week = df['day_of_week'].mode()[0]
-    print("The most common day of week from the given fitered data is: " + common_day_of_week)
+most_common_day_of_week = df['day_of_week'].mode()[0]
+    print("The most common day of week from the given fitered data is: " + most_common_day_of_week)
 
     # TO DO: display the most common start hour
-common_start_hour = df['hour'].mode()[0]
-    print("The most common start hour from the given fitered data is: " + str(common_start_hour))
+most_common_start_hour = df['hour'].mode()[0]
+    print("The most common start hour from the given fitered data is: " + str(most_common_start_hour))
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
